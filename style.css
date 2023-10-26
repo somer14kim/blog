@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    }
+  
+  nav{
+    width: calc(100%);
+    padding: 20px;
+    display: inline-flex;
+    flex: 1 0 15%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: stretch;
+    background-color: #0d1f14;
+  }
+  
+  nav a{
+    color: rgb(146, 255, 191);
+    padding: 10px;
+    text-decoration: underline overline;
+  }
+  nav a:hover{
+    background-color:#2ed473;
+  }
+  
+  form{
+    float: left;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  #main{
+    margin: 20px;
+    padding: 10px;
+    width: calc(50% - 60px);
+    float: left;
+    background-color: #122716;
+     }
+  
+  #emailBox{
+    position: relative;
+    background-color: #16492a;
+    width: 100%;
+    height: 100px;
+    clear: both;
+    text-align: center;
+  }
+  
+  .special {
+    background-color: #51966c;
+    width: calc(25%);
+    color: rgb(5, 39, 10);
+    padding: 30px;
+    margin-left: -20px;
+  }
+  
+  .mtn {
+    float: right;
+    width: calc(50% - 60px);
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .email{
+    width: calc(50%);
+    height: 150px;
+    margin: auto;
+    vertical-align: center;
+    margin-top: -20px;
+  }
+  
+  #noDisplay{
+    display:none;
+    margin: 100px 0px 20px 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  
